@@ -9,12 +9,16 @@
         <!--css links-->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+        <!--js link-->
+        <script src="app.js" defer></script>
     </head>
     <bod>
         <h1>to do app</h1>
         <div class="container">
             <div class="left">
-                <form>
+                <form id="form">
                     <label for="post">write your task here</label>
                     <br><br>
                     <textarea name="post" id="input" cols="30" rows="10"></textarea>
@@ -25,7 +29,22 @@
             </div>
             <div clsss="right">
                 <h3>Task shown here</h3>
-                <div id=post></div>
+                <div id=post>
+                    <div>
+                        <p>hello post 1</p>
+                        <span class="options">
+                            <i class="fas fa-edit"></i>
+                            <i class="fas fa-trash-alt"></i>
+                        </span>
+                    </div>
+                    <div>
+                        <p>hello post 2</p>
+                        <span class="options">
+                            <i class="fas fa-edit"></i>
+                            <i class="fas fa-trash-alt"></i>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </bod>

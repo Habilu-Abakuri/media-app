@@ -1,0 +1,39 @@
+body {
+    font-family: sana-serif;
+    margin: 0 50px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#post {
+    width: 400px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#post div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: red;
+}
